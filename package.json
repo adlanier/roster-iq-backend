@@ -1,0 +1,24 @@
+{
+  "name": "roster-iq-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "PORT=3001 NODE_ENV=test jest --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  }
+
+}
+
